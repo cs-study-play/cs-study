@@ -1,8 +1,9 @@
-<h1>CORS(Cross-Origin Resource Sharing, 교차 출처 리소스 공유)</h1>
+<h1>CORS</h1>
+<h3>(Cross-Origin Resource Sharing, 교차 출처 리소스 공유)</h3>
 사실 이 개념은 프론트엔드, 백엔드 어느 한 쪽에 국한 되는 개념은 아니다.    
 내가 이 개념을 프론트엔드 공부할 때 접한 개념이었어서 FE카테고리에 넣은 것이지, 이 개념이 FE에 한정되는 개념이 아님을 밝히고 시작하려 한다.   
 
-
+<hr>
 
 우선 **CORS의 정의**는 다음과 같다.
 
@@ -15,7 +16,7 @@
 
 ![image](https://user-images.githubusercontent.com/55613591/157040702-19bbb1fd-e2a4-4c71-9e6c-e84f4bc247ec.png)
 
-
+<hr>
 
 그러면 **origin(출처)** 는 무엇일까?
 
@@ -25,17 +26,19 @@ https://www.aaaa.com:80
 
 
 아래 세 url이 있을때 어떤 것이 같은 출처고, 어떤 것이 다른 출처일까?
-
+```
 1. http://www.aaaa.com:80
 2. https://www.bbbb.com
 3. https://www.aaaa.com/aa?id=22
+```
+<br>
 정답은 1, 2가 다른 출처이고 3이 같은 출처이다.
 
 1은 프로토콜이 다르고, 2는 호스트가 다르다.
 
 3에서 프로토콜, 호스트, 포트가 같고, 뒤에 붙는 path(/aa), query string(?id=22)는 같지 않아도 같은 출처라고 간주하므로 3은 같은 출처이다.   
 
-
+<hr>
 
 우리가 웹 개발을 할 때, 우리가 만든 서버와 요청과 응답을 주고 받는 API를 사용하는 경우가 대부분이기는 하지만, 
 외부 API를 사용해서 개발을 할때도 있는데, **이때의 외부 API 사용시에 이 CORS 를 고려해야 하는 것**이다.   
@@ -75,6 +78,6 @@ https://developer.mozilla.org/ko/docs/Web/HTTP/CORS#%EC%A0%91%EA%B7%BC_%EC%A0%9C
 developer.mozilla.org
 이 외에도 HTTP 응답 헤더, 요청 헤더 들에 대한 내용도 위 링크에서 같이 살펴 볼 수 있다.
 
-<전문은 아래의 티스토리 링크를 통해 확인>
-https://paabaep.tistory.com/50
+<_전문은 아래의 티스토리 링크를 통해 확인_> <br>
+📝 https://paabaep.tistory.com/50
 
