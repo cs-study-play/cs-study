@@ -4,7 +4,7 @@
 
 ### 1. 고정된 스키마 vs 비고정 스키마
 
-![[https://www.geeksforgeeks.org/sql-vs-nosql-which-one-is-better-to-use/](https://www.geeksforgeeks.org/sql-vs-nosql-which-one-is-better-to-use/)](RDBMS%20vs%20N%206c752/SQL-Vs-NoSQL1.png)
+![SQL-Vs-NoSQL1](https://user-images.githubusercontent.com/97429679/158250029-63ca4a12-2a93-4cce-83d5-b8779ebf76bf.png)
 
 [https://www.geeksforgeeks.org/sql-vs-nosql-which-one-is-better-to-use/](https://www.geeksforgeeks.org/sql-vs-nosql-which-one-is-better-to-use/)
 
