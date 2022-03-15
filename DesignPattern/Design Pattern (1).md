@@ -43,9 +43,12 @@ GoF(Gang of Four)의 23가지 디자인 패턴 중 싱글턴 패턴(Singleton Pa
 ![image](https://user-images.githubusercontent.com/93183070/158196324-e8cbf864-0540-4861-9186-669b031a5537.png)
 
 <br><br>
-<div align="center">
 # 디자인 패턴 관계도
-![image](https://user-images.githubusercontent.com/93183070/158196477-9d498d51-aa56-4b72-b16d-bacd15374a06.png)
+
+<div align="center">
+ 
+![image](https://user-images.githubusercontent.com/93183070/158344846-940181cc-b3c9-45da-b4fd-99dbec1e623e.png)
+
 </div>
  
 <br><br>
