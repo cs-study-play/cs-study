@@ -54,9 +54,9 @@
 |[browser_rendering](https://github.com/cs-study-play/cs-study/blob/main/Web/browser_rendering.md)|
 |[변수호이스팅](https://github.com/cs-study-play/cs-study/blob/main/Web/%EB%B3%80%EC%88%98%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85.md)|
 
-|DevOps|RDBMS & NoSQL|
-|---|---|
-|[by 황세원](https://github.com/cs-study-play/cs-study/blob/main/DevOps/DevOps_sewon.md)|[by 양지현](https://github.com/cs-study-play/cs-study/blob/main/Database/RDBMS%20vs%20NoSQL%20by%20%EC%96%91%EC%A7%80%ED%98%84.md)
+|DevOps|RDBMS & NoSQL|Design Pattern|
+|---|---|---|
+|[by 황세원](https://github.com/cs-study-play/cs-study/blob/main/DevOps/DevOps_sewon.md)|[by 양지현](https://github.com/cs-study-play/cs-study/blob/main/Database/RDBMS%20vs%20NoSQL%20by%20%EC%96%91%EC%A7%80%ED%98%84.md)|[by 김민기](https://github.com/cs-study-play/cs-study/blob/main/DesignPattern/Design%20Pattern%20(1).md)|
 | |[by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/Database/RDBMS-and-NoSQL.md)|
 
 </div>
