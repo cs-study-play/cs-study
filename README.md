@@ -7,7 +7,7 @@
 |스|터|디|원|
 |---|---|---|---|
 |<a href="https://github.com/minki0415"><img src="https://img.shields.io/badge/김민기-16ba5b?style=for-the-badge"/></a>|<a href="https://github.com/MaryYoungae"><img src="https://img.shields.io/badge/김영애-ef7953?style=for-the-badge"/></a>|<a href="https://github.com/evememine"><img src="https://img.shields.io/badge/양지현-97c6d0?style=for-the-badge"/></a>|<a href="https://github.com/mandariny"><img src="https://img.shields.io/badge/윤소희-d097af?style=for-the-badge"/></a>|
-|<a href="https://github.com/WoojaeJang"><img src="https://img.shields.io/badge/장우재-b332df?style=for-the-badge"/></a>|<a href="https://github.com/jobumjin"><img src="https://img.shields.io/badge/조범진-c6df32?style=for-the-badge"/></a>| <a href="https://github.com/pabaep"><img src="https://img.shields.io/badge/황세원-3281df?style=for-the-badge"/></a>|<a href="https://github.com/dohee789p"><img src="https://img.shields.io/badge/홍도희-df3281?style=for-the-badge"/></a>|
+|<a href="https://github.com/WoojaeJang"><img src="https://img.shields.io/badge/장우재-b332df?style=for-the-badge"/></a>|<a href="https://github.com/jobumjin"><img src="https://img.shields.io/badge/조범진-c6df32?style=for-the-badge"/></a>| <a href="https://github.com/pabaep"><img src="https://img.shields.io/badge/황세원-3281df?style=for-the-badge"/></a>|<a href="https://github.com/dohee789"><img src="https://img.shields.io/badge/홍도희-df3281?style=for-the-badge"/></a>|
   
 <br><br>
 
