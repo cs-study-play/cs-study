@@ -1,8 +1,5 @@
 # NoSQL 데이터 모델링
 
-복습: No
-체크사항: No
-
 ## 1. NoSQL 데이터 모델링 특징
 
 ### 1. Denormalization(비정규화)
