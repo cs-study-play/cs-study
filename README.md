@@ -56,7 +56,7 @@
 
 |DevOps|RDBMS & NoSQL|Design Pattern|
 |---|---|---|
-|[by 황세원](https://github.com/cs-study-play/cs-study/blob/main/DevOps/DevOps_sewon.md)|[by 양지현](https://github.com/cs-study-play/cs-study/blob/main/Database/RDBMS%20vs%20NoSQL%20by%20%EC%96%91%EC%A7%80%ED%98%84.md)|[by 김민기](https://github.com/cs-study-play/cs-study/blob/main/DesignPattern/Design%20Pattern%20(1).md)|
+|[by 황세원](https://github.com/cs-study-play/cs-study/blob/main/DevOps/DevOps_sewon.md)|[by 양지현](https://github.com/cs-study-play/cs-study/blob/main/Database/RDBMS%20vs%20NoSQL%20by%20%EC%96%91%EC%A7%80%ED%98%84.md)|[by 김민기](https://github.com/cs-study-play/cs-study/blob/main/DesignPattern/Design%20Pattern%20(2).md)|
 | |[by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/Database/RDBMS-and-NoSQL.md)|
 
 </div>
