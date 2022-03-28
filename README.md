@@ -61,6 +61,10 @@
 |[도커&쿠버네티스 by 황세원](https://github.com/cs-study-play/cs-study/blob/main/DevOps/Docker&Kubernetes_sewon.md)|[RDBMS vs NoSQL by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/Database/RDBMS-and-NoSQL.md)|[GoF by 홍도희](https://github.com/cs-study-play/cs-study/blob/main/DesignPattern/2.design_pattern.md)
 |[쿠버네티스 by 장우재](./DevOps/Kubernetes_WOOJAE.md)|[데이터베이스 설계 by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/Database/Database%20%EC%84%A4%EA%B3%84.md)|
     
+|Server|
+|---|
+|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)]
+    
 
 
 </div>
