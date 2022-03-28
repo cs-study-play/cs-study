@@ -63,7 +63,7 @@
     
 |Server|
 |---|
-|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)]
+|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)
     
 
 
