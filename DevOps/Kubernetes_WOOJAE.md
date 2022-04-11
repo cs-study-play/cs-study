@@ -105,5 +105,27 @@
 <br/>
 
 ## 2. 쿠버네티스(Kubernetes)
-(다음주 계속...)
+- 컨테이너를 쉽고 빠르게 배포/확장하고 관리를 자동화하해주는 오픈소스 플랫폼
+- 1주일에 20억개의 컨테이너를 생성하는 google이 컨테이너 배포 시스템으로 사용하던 borg를 기반으로 만든 오픈소스에서 시작 (2015년 release 됨)
+- 현재는 Cloud Native Computing Foundation으로 소스기 이관되어 완전히 오픈소스가 됨
+
+### 특징
+- 운영에서 사용가능한 컨테이너 오케스트레이션
+- 행성 스케일 20억개보다만 적으면 사용가능
+- 유연함
+- 어디서든 동작 가능
+
+### 인기가 많은 이유
+- 오픈소스
+  - [kubernetes github](https://github.com/kubernetes/kubernetes)
+  - Google, Red Hat, VMware, Microsoft, Intel 등 다양한 기업에서 참여
+  - 커뮤니티가 매우 활발히 활동 중(150개 이상의 모임, 컨퍼런스 문화도 잘 발달되어 있음)
+- 엄청난 인기
+  - 운영에 사용되는 부분이 84%
+  ![survey](../Images/graphs-report-10-1.png)
+  
+  - 도입해서 사용하는 비율이 압도적으로 높음
+  ![survey](../Images/graphs-report-25-2.png)
+- 무한한 확장성
+- 사실상 표준
 
