@@ -134,3 +134,10 @@
   5) 설명변수 간의 중요도를 판단하기 어려움
 
 
+# 참고
+https://blog.naver.com/jmkim461/222693014685
+https://m.post.naver.com/viewer/postView.naver?volumeNo=29124872&memberNo=21815
+https://blog.naver.com/lucifer246/222632171340
+https://ratsgo.github.io/machine%20learning/2017/03/26/tree/
+https://www.analyticsvidhya.com/blog/2016/04/tree-based-algorithms-complete-tutorial-scratch-in-python/
+https://blog.naver.com/askif2/221998691305
