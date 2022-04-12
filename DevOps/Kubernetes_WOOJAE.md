@@ -121,11 +121,47 @@
   - Google, Red Hat, VMware, Microsoft, Intel 등 다양한 기업에서 참여
   - 커뮤니티가 매우 활발히 활동 중(150개 이상의 모임, 컨퍼런스 문화도 잘 발달되어 있음)
 - 엄청난 인기
-  - 운영에 사용되는 부분이 84%
+  - CNCF 설문조사에서 운영에 사용되는 부분이 84%
   ![survey](../Images/graphs-report-10-1.png)
   
-  - 도입해서 사용하는 비율이 압도적으로 높음
+  - CNCF 설문조사에서 도입해서 사용하는 비율이 압도적으로 높음
   ![survey](../Images/graphs-report-25-2.png)
-- 무한한 확장성
-- 사실상 표준
 
+  - 국내 KAKAO, LINE 등에서도 구축하여 사용
+  
+- 무한한 확장성
+  - 다음과 같은 플랫폼이 Kubernetes위에서 동작한다
+    - [Kubeflow](https://www.kubeflow.org/)
+    - [TEKTON](https://tekton.dev/)
+    - [Istio](https://istio.io/)
+    - [Knative](https://knative.dev/docs/)
+  - 이에 따라 기존에 개발자에게 정말 중요했던 리눅스의 중요도가 내려감 
+- 사실상 표준
+  - 이제 Kubernetes가 컨테이너오케스르테리이션의 [De facto(사실상)](https://ko.wikipedia.org/wiki/%EB%8D%B0_%ED%8C%8D%ED%86%A0)
+  - 다양한 컨테이너 기반 소프트웨어 관리에 사용되는 제품도 Kubernetes를 사용한다.
+    - [Rancher (by SUSE)](https://rancher.com/) : 기존에는 오케스트레이션을 직접 구현했으나 이제는 Kubernetes 위에서 커스터마이징 하여 사용
+    - [Red Hat OpenShift (by IBM)](https://docs.openshift.com/)
+    - [Tenzu (by VMware)](https://tanzu.vmware.com/tanzu)
+  - Docker에서도 지원
+  - 클라우드 서비스에서도 Kubernetes를 managed service로 제공
+    - [EKS (Amazon - Elastic Kubernetes Service)](https://aws.amazon.com/ko/eks/)
+    - [AKS (Azure Kubernetes Service)](https://github.com/Azure/AKS)
+    - [GKE (Google Kubernetes Engine)](https://cloud.google.com/kubernetes-engine)
+
+- CNCF : CLOUD NATIVE COMPUTING FOUNDATION
+  - 클라우드 환경에 적합한 컴퓨팅 기술을 지원하는 오픈소스 단체
+  - The Linux Foundation의 소속 단체
+  - 클라우드 환경에 적합한 기술들을 호스팅
+  - CNCF Trail Map의 핵심에 Kubernetes가 있다
+    ![CNCF Trail Map](../Images/CNCF_TrailMap_latest-1.png)
+    - 컨테이너
+    - CI/CD
+    - 오케스트레이션
+    - 모니터링
+    - 서비스 디스커버리
+    - 네트워크 & 보안
+    - 분산 DB & 저장소
+    - 메시징
+    - 컨테이너 런티임
+    - 베포 (인증)
+- 한마디로 말하면 Kubernetes는 컨테이너 오케스트레이션의 사실상의 표준이며 Cloud Native의 핵심 역할이다
