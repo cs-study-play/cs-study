@@ -66,8 +66,12 @@ L2, L3, L4, L7 등 다양한 종류의 로드밸런서가 있지만, 대표적�
 
 ![image](https://user-images.githubusercontent.com/55613591/163812909-e4ed3c5c-3fae-47d6-9116-58bbd5b14bb6.png)
 
+<참고문헌>
 
-
+https://m.post.naver.com/viewer/postView.nhn?volumeNo=27046347&memberNo=2521903    
+https://medium.com/harrythegreat/aws-%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%8B%B1-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-9fd0955f859e   
+https://nesoy.github.io/articles/2018-06/Load-Balancer   
+ 
 
 
 
