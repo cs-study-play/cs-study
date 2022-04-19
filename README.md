@@ -67,6 +67,9 @@
 |---|
 |[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)
     
+|CS 공부 관련 정보 정리|
+|---|
+|[CS Inforamtion by 장우재](./information/cs_information.md)|
 
 
 </div>
