@@ -65,7 +65,8 @@
     
 |Server|
 |---|
-|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)
+|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)|
+|[LoadBalancing by 황세원](https://github.com/cs-study-play/cs-study/blob/main/Server/LoadBalancing_sewon.md)|
     
 |CS 공부 관련 정보 정리|
 |---|
