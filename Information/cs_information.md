@@ -67,8 +67,8 @@ https://youngban.tistory.com/5
 <br/>
 
 #### 👉 신입 개발자 기술 면접 준비
-: 기술 면접 준비를 위한 CS지식들의 링크를 정리해놓은 블로그
-https://cocoon1787.tistory.com/668  
+https://cocoon1787.tistory.com/668   
+: 기술 면접 준비를 위한 CS지식들의 링크를 정리해놓은 블로그  
 - 개발 상식
 - 알고리즘
 - 자료구조
