@@ -63,14 +63,14 @@
 |[쿠버네티스 by 장우재](./DevOps/Kubernetes_WOOJAE.md)|[데이터베이스 설계 by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/Database/Database%20%EC%84%A4%EA%B3%84.md)|[BuilderPattern by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/DesignPattern/BuilderPattern.md)|
    | |[인덱스 by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/Database/Index.md)|
     
-|Server|
-|---|
-|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)|
+|Server|CS 공부 관련 정보 정리|
+|---|---|
+|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)|[CS Inforamtion by 장우재](./Information/cs_information.md)|
 |[LoadBalancing by 황세원](https://github.com/cs-study-play/cs-study/blob/main/Server/LoadBalancing_sewon.md)|
     
-|CS 공부 관련 정보 정리|
-|---|
-|[CS Inforamtion by 장우재](./Information/cs_information.md)|
+
+
+
 
 
 </div>
