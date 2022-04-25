@@ -36,7 +36,7 @@
 
 ### 2. 전략 패턴의 구조
 
-![[https://en.wikipedia.org/wiki/Strategy_pattern](https://en.wikipedia.org/wiki/Strategy_pattern)](%5B%E1%84%90%E1%85%A6%E1%84%8F%E1%85%A9%E1%84%90%E1%85%A9%E1%86%A8%5D%20OCP%E1%84%8B%E1%85%AA%20%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%85%E1%85%A3%E1%86%A8%E1%84%91%E1%85%A2%E1%84%90%E1%85%A5%E1%86%AB%20f1d5121c9701418eb6da2966c9fb0482/Strategy_Pattern_in_UML.png)
+![Strategy_Pattern_in_UML](https://user-images.githubusercontent.com/97429679/165112650-c648d685-e08d-4575-aef4-49417741530a.png)
 
 [https://en.wikipedia.org/wiki/Strategy_pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
 
