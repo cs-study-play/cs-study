@@ -24,7 +24,8 @@ DB 설계, 개발 후 작동 과정에서 처음에는 문제가 없다가 사�
 
 엘라스틱서치 역시 데이터에 다양한 규칙으로 최적화된 인덱싱을 처리할 수 있어서 검색에 빠른 성능을 보인다. 또한 관계형 데이터베이스와 엘라스틱서치의 데이터는 저장되는 구조가 다르다. 
 
-![Untitled](elaticsearch%2008bd0b466d474d67be3d9e6ba2723b87/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/97663140/165108410-b544b2a0-e1ec-465b-aebd-71c880d48323.png)
+
 
 관계형 데이터베이스가 document 중심이라면 elasticsearch는 텍스트 중심이다. 봉준호를 검색할 경우 관계형 데이터베이스는 doc를 하나하나 확인하며 데이터위치를 찾지만 엘라스틱 서치는 바로 데이터를 찾아낸다. 
 
@@ -32,7 +33,8 @@ DB 설계, 개발 후 작동 과정에서 처음에는 문제가 없다가 사�
 
 # elasticsearch에 데이터 넣기 - logstash
 
-![Untitled](elaticsearch%2008bd0b466d474d67be3d9e6ba2723b87/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/97663140/165108405-0e1cc5b0-d1db-43c3-a99f-7116983fb648.png)
+
 
 베이스 데이터와 엘라스틱 서치가 따로라면 엘라스틱서치에 데이터를 넣어줄 담당이 필요하다. 대표적인 것으로는 Logstash가 있다. logstash는 mysql,mongodb모두 지원하긴 하지만 mongodb는 자료가 적다고 한다. 
 
