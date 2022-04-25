@@ -1,4 +1,4 @@
-# [테코톡] OCP와 전략패턴
+# OCP와 전략패턴
 
 [[10분 테코톡] 👾베디의 OCP와 전략패턴](https://www.youtube.com/watch?v=90ZDvHl8ROE&list=PLgXGHBqgT2TvpJ_p9L_yZKPifgdBOzdVH&index=182)
 
