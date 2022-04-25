@@ -63,10 +63,17 @@
 |[쿠버네티스 by 장우재](./DevOps/Kubernetes_WOOJAE.md)|[데이터베이스 설계 by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/Database/Database%20%EC%84%A4%EA%B3%84.md)|[BuilderPattern by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/DesignPattern/BuilderPattern.md)|
    | |[인덱스 by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/Database/Index.md)|
     
-|Server|CS 공부 관련 정보 정리|
-|---|---|
-|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)|[CS Inforamtion by 장우재](./Information/cs_information.md)|
-|[LoadBalancing by 황세원](https://github.com/cs-study-play/cs-study/blob/main/Server/LoadBalancing_sewon.md)|
+|Server|CS 공부 관련 정보 정리|Network|
+|---|---|---|
+|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)|[CS Inforamtion by 장우재](./Information/cs_information.md)|[1. OSI 7 계층](./Network/nw_01_OSI_7_layers.md)|
+|[LoadBalancing by 황세원](https://github.com/cs-study-play/cs-study/blob/main/Server/LoadBalancing_sewon.md)||[2. TCP](./Network/nw_02_TCP.md)|
+|||[3. TCP/IP](./Network/nw_03_TCP_IP.md)|
+|||[4. UDP](./Network/nw_04_UDP.md)|
+|||[5. 대칭키 & 공개키](./Network/nw_05_%EB%8C%80%EC%B9%AD%ED%82%A4_%EA%B3%B5%EA%B0%9C%ED%82%A4.md)|
+|||[6. HTTP & HTTPS](./Network/nw_06_HTTP_HTTPS.md)|
+|||[7. TLS & SSL](./Network/nw_07_TLS_SSL_HandShake.md)|
+|||[8. 로드 밸런싱(Load Balancing)](./Network/nw_08_LoadBalancing.md)|
+|||[9. 블로킹/논블로킹 & 동기/비동기](./Network/nw_09_Blocking_NonBlocking_Sync_Async.md)|
     
 
 
