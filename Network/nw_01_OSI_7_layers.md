@@ -1,27 +1,21 @@
 # OSI 7 계층
 
-## 1. Physical(물리)
+## OSI 7 계층 개념
 
 <br/>
 
-## 2. Data Link(데이터 링크)
+## 각 계층 별 설명
 
-<br/>
+#### 1. Physical(물리)
 
-## 3. Network(네트워크)
+#### 2. Data Link(데이터 링크)
 
-<br/>
+#### 3. Network(네트워크)
 
-## 4. Transport(전송)
+#### 4. Transport(전송)
 
-<br/>
+#### 5. Session(세션)
 
-## 5. Session(세션)
+#### 6. Presentation(표현)
 
-<br/>
-
-## 6. Presentation(표현)
-
-<br/>
-
-## 7. Application(응용)
+#### 7. Application(응용)
