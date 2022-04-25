@@ -12,7 +12,7 @@ https://github.com/kamranahmedse/developer-roadmap
 <br/>
 
 #### 👉 신입 개발자 전공 지식 & 기술 면접 백과사전
-https://roadmap.sh/  
+https://gyoogle.dev/blog/  
 : 과목별 기본 개념과 면접 질문과 답을 정리해 놓은 사이트
 - 알고리즘
 - CS
