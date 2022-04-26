@@ -5,6 +5,8 @@
 - Open Systems Interconnection Reference Model 7 Layer
 - 개방형 시스템 상호연결 참조 모델 7계층
 
+<div align="center">
+
 |OSI 7 Layer 이미지|
 |:---:|
 |![osi_7_1](../Images/osi_7_layers_1.jpeg)|
@@ -16,6 +18,8 @@
 |![osi_7_4](../Images/osi_7_layers_4.png)|
 ||
 |![osi_7_5](../Images/osi_7_layers_5.jpeg)|
+
+</div>
 
 <br/>
 
