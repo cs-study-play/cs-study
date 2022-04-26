@@ -4,7 +4,7 @@
 
 # 모델 평가
 
-### 1. 머신러닝 문베 별 평가지표 
+### 1. 머신러닝 문 별 평가지표 
 ![image](https://user-images.githubusercontent.com/93183070/164710943-80bd37f9-cfcd-4cd1-a88c-7f1b03a03264.png)
 
 ### 2. 모델 평가의 기준
