@@ -65,7 +65,7 @@
     
 |Server|CS 공부 관련 정보 정리|Network|
 |---|---|---|
-|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)|[CS Inforamtion by 장우재](./Information/cs_information.md)|[1. OSI 7 계층](./Network/nw_01_OSI_7_layers.md)|
+|[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)|[CS Inforamtion by 장우재](./Information/cs_information.md)|[1. OSI 7 계층 by 장우재](./Network/nw_01_OSI_7_layers.md)|
 |[LoadBalancing by 황세원](https://github.com/cs-study-play/cs-study/blob/main/Server/LoadBalancing_sewon.md)||[2. TCP](./Network/nw_02_TCP.md)|
 |||[3. TCP/IP](./Network/nw_03_TCP_IP.md)|
 |||[4. UDP](./Network/nw_04_UDP.md)|
