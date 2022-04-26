@@ -7,8 +7,6 @@
 
 <br/>
 
-<div align="center">
-
 |OSI 7 Layer 이미지|
 |:---:|
 |![osi_7_1](../Images/osi_7_layers_1.png)|
@@ -20,8 +18,6 @@
 |![osi_7_4](../Images/osi_7_layers_4.png)|
 ||
 |![osi_7_5](../Images/osi_7_layers_5.png)|
-
-</div>
 
 <br/>
 
