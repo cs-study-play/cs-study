@@ -23,7 +23,8 @@
 <br/>
 
 ## TCP 세그먼트
-![TCP_segment](../Images/TCP_segment.jpg)
+|![TCP_segment](../Images/TCP_segment.jpg)|
+|---|
 - TCP 세그먼트는 TCP로 연결된 세션간의 전달되는 데이터 단위
 - TCP는 데이터 스트림으로부터 데이터를 받아 들여 이것을 일정 단위로 분할한 뒤 TCP 헤더를 덧붙여 TCP 세그먼트를 생성한다. TCP 세그먼트는 *IP 데이터그램에 캡슐화되어 상대방과 주고 받게 된다.
   ```
@@ -36,8 +37,10 @@
 <br/>
 
 ## TCP 헤더
-![TCP_header_1](../Images/TCP_header_1.jpg)
-![TCP_header_2](../Images/TCP_header_2.jpg)
+|![TCP_header_1](../Images/TCP_header_1.png)|
+|---|
+|![TCP_header_2](../Images/TCP_header_2.jpg)|
+|---|
 
 - Source Port (16 비트) : 출발지 포트번호, 송신 포트
 - Destination Port (16 비트) : 목적지 포트번호, 수신 포트
