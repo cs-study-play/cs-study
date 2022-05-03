@@ -39,7 +39,8 @@
 ## TCP 헤더
 |![TCP_header_1](../Images/TCP_header_1.png)|
 |---|
-|![TCP_header_2](../Images/TCP_header_2.jpg)|
+
+|![TCP_header_2](../Images/TCP_header_2.png)|
 |---|
 
 - Source Port (16 비트) : 출발지 포트번호, 송신 포트
