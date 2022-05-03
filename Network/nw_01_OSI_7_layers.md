@@ -9,15 +9,15 @@
 
 |OSI 7 Layer 이미지|
 |:---:|
-|![osi_7_1](../Images/osi_7_layers_1.png)|
+|![OSI_7_1](../Images/OSI_7_layers_1.png)|
 ||
-|![osi_7_2](../Images/osi_7_layers_2.png)|
+|![OSI_7_2](../Images/OSI_7_layers_2.png)|
 ||
-|![osi_7_3](../Images/osi_7_layers_3.png)|
+|![OSI_7_3](../Images/OSI_7_layers_3.png)|
 ||
-|![osi_7_4](../Images/osi_7_layers_4.png)|
+|![OSI_7_4](../Images/OSI_7_layers_4.png)|
 ||
-|![osi_7_5](../Images/osi_7_layers_5.png)|
+|![OSI_7_5](../Images/OSI_7_layers_5.png)|
 
 <br/>
 

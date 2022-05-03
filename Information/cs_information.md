@@ -1,7 +1,7 @@
 # CS 공부를 위한 자료 정리
 
 ## Backend Roadmap
-![backendRoadmap](../Images/backend.jpg)  
+![BackendRoadmap](../Images/Backend_Roadmap.jpg)  
 
 ## 조사한 사이트 목록
 

@@ -122,10 +122,10 @@
   - 커뮤니티가 매우 활발히 활동 중(150개 이상의 모임, 컨퍼런스 문화도 잘 발달되어 있음)
 - 엄청난 인기
   - CNCF 설문조사에서 운영에 사용되는 부분이 84%
-  ![survey](../Images/graphs-report-10-1.png)
+  ![CNCF_survey](../Images/CNCF_graphs-report-10-1.png)
   
   - CNCF 설문조사에서 도입해서 사용하는 비율이 압도적으로 높음
-  ![survey](../Images/graphs-report-25-2.png)
+  ![CNCF_survey](../Images/CNCF_graphs-report-25-2.png)
 
   - 국내 KAKAO, LINE 등에서도 구축하여 사용
   
