@@ -93,31 +93,80 @@
   ```
 
 
-#### Step 1. Client -> Server : SYN
-- Client에서 Server에게 SYN를 보냅니다. 이 때 Client의 상태는 SYN을 보냈다는 SYN_SENT 상태로 바뀌게 됩니다.
+#### Step 1. Client --(SYN)--> Server
+- Client에서 Server에게 SYN를 보낸다. 이 때 Client의 상태는 SYN을 보냈다는 SYN_SENT 상태로 바뀐다.
 - Client가 최초로 데이터를 전송할 때 Sequence Number를 임의의 랜덤 숫자로 지정하고, SYN 플래그 비트를 1로 설정한 세그먼트를 전송한다.
 - PORT 상태 
   - Client : CLOSED -> (SYN 보낸 후) -> SYN_SENT
   - Server : LISTEN
 
-#### Step 2 SYN + ACK
-- Server에서는 SYN을 받았다는 SYN_RECEIVED 상태로 바뀝니다. 그리고 나서 Client에게 잘 받았다는 응답의 ACK과 SYN를 보냅니다.
+#### Step 2. Server --(SYN + ACK)--> Client
+- Server에서는 SYN을 받았다는 SYN_RECEIVED 상태로 바뀐후 Client에게 잘 받았다는 응답의 ACK과 SYN를 보낸다.
 - Server는 Acknowledgement Number 필드를 (Sequence Number + 1)로 지정하고, SYN과 ACK 플래그 비트를 1로 설정한 세그먼트를 전송한다.
 - PORT 상태 
   - Client : SYN_SENT
   - Server : LISTEN -> (SYN + ACK 보낸 후) -> SYN_RECEIVED
 
-#### Step 3 ACK
-- Client에서는 상호 연결이 된 상태의 ESTABLISHED로 바뀝니다. 그리고 나서 Server에게 ACK을 보냅니다. Server에서는 ACK를 받은 후에 ESTABLISHED 상태로 바뀌게됩니다.
-- 전송할 데이터가 있으면 이 단계에서 데이터를 전송할 수 있다.
+#### Step 3. Client --(ACK)--> Server
+- Client에서는 상호 연결이 된 상태의 ESTABLISHED로 바뀐다. 그후 Server에게 ACK을 보낸다. Server에서는 ACK를 받은 후에 ESTABLISHED 상태로 바뀌게된다.
+- 이때, 전송할 데이터가 있으면 이 단계에서 데이터를 전송할 수 있다.
 - PORT 상태
   - Client : SYN_SENT -> (SYN + ACK 받은 후) -> ESTABLISHED
   - Server : SYN_RECEIVED -> (ACK 받은 후) -> ESTABLISHED
 
-
 <br/>
 
 ## 4 way handshake
+|![TCP_4way_1](../Images/TCP_4way_1.png)|
+|:---:|
+
+|![TCP_4way_2](../Images/TCP_4way_2.png)|
+|:---:|
+
+|![TCP_4way_3](../Images/TCP_4way_3.png)|
+|:---:|
+
+- TCP의 연결을 해제(Connection Termination) 하는 과정이다.
+- 연결 성립 후, 모든 통신이 끝났다면 해제해야 한다.
+- 간단히 표현하면 다음과 같다
+  
+  ```
+  1) Client -> Server : 나는 다 보냈어. 이제 끊자!
+  2) Server -> Client : 알겠어! 잠시만~
+  3) Server -> Client : 나도 끊을게!
+  4) Client -> Server : 알겠어!
+  ```
+
+#### Step 1. Client --(FIN)--> Server
+- Server와 Client가 TCP 연결이 되어있는 상태에서 Client가 접속을 끊기 위해 close( )를 호출한다. 
+- Client가 close( )를 호출하면서 Server에게 FIN 패킷을 보내게 되는데, 이때 FIN 패킷에 실질적으로는 ACK도 포함되어 있다. 
+- 그후 Client는 FIN_WAIT_1 상태로 들어간다.
+- PORT 상태
+  - Client : ESTABLISHED -> (FIN 보낸 후) -> FIN_WAIT_1
+  - Server : ESTABLISHED
+
+#### Step 2. Server --(ACK)--> Client
+- Server는 Client에게 응답 ACK를 보내고 CLOSE_WAIT 상태에 들어간다.
+- 그후 아직 남은 데이터가 있다면 마저 전송을 마친 후에 close( )를 호출한다.
+- Server는 Acknowledgement Number 필드를 (Sequence Number + 1)로 지정하고, ACK 플래그 비트를 1로 설정한 세그먼트를 전송한다.
+- Client에서는 서버에서 ACK를 받은 후에 Server가 남은 데이터 처리를 끝내고 FIN 패킷을 보낼 때까지 기다리게 된다.
+- PORT 상태
+  - Client : FIN_WAIT_1 (ACK 받은 후) -> FIN_WAIT_2
+  - Server : ESTABLISHED -> (ACK 보낸 후) -> CLOSE_WAIT
+
+#### Step 3. Server --(FIN)--> Client
+- Server는 이제 모든 데이터 처리가 끝났다고 종료에 합의 한다는 뜻으로 Client에게 FIN 패킷을 보낸 후에 승인 번호를 보내줄 때까지 기다리는 LAST_ACK 상태로 들어간다.
+- PORT 상태
+  - Client : FIN_WAIT_2
+  - Server : CLOSE_WAIT -> (FIN 보낸 후) -> LAST_ACK
+
+#### Step 4. Client --(ACK)--> Server
+- Client는 Server에서 FIN 패킷을 받고 나서 다시 Server에게 ACK 응답을 보낸 후에 TIME_WAIT 상태로 들어가며 실질적인 종료 과정(CLOSED)에 들어가게 된다. 
+- 이때 TIME_WAIT 상태는 의도치 않은 에러로 인해 연결이 데드락으로 빠지는 것을 방지하는데, 만약 에러로 인해 종료가 지연되다가 타임이 초과되면 CLOSED로 들어간다.
+- Server는 ACK를 받고 CLOSED 상태로 들어가 종료하게 된다.
+- PORT 상태
+  - Client : FIN_WAIT_2 (ACK 보낸 후) -> TIME_WAIT -> CLOSED
+  - Server : LAST_ACK -> (ACK 받은 후) -> CLOSED
 
 <br/>
 
@@ -133,4 +182,6 @@
 - https://lucidmaj7.tistory.com/119
 - https://nogan.tistory.com/20
 - https://beenii.tistory.com/127
+- https://gmlwjd9405.github.io/2018/09/19/tcp-connection.html
+- https://seongonion.tistory.com/74
 - https://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-22%ED%8E%B8-TCP-3-WayHandshake-4-WayHandshake
