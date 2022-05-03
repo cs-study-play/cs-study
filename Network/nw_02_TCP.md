@@ -85,9 +85,11 @@
 - TCP 통신을 이용하여 데이터를 전송하기 위해 네트워크 연결을 설정(Connection Establish) 하는 과정이다.
 - TCP는 정확한 전송을 보장해야 한다. 따라서 통신하기에 앞서, 논리적인 접속을 성립하기 위해 3 way handshake 과정을 진행한다.
 - 간단히 표현하면 다음과 같다
+  ```
   - Client -> Server : 내 말 들려?
   - Server -> Client : 잘 들려. 내 말은 들려?
   - Client -> Server : 잘 들려!
+  ```
 
 
 #### Step 1. Client -> Server : SYN
@@ -111,7 +113,6 @@
   - Client : SYN_SENT -> (SYN + ACK 받은 후) -> ESTABLISHED
   - Server : SYN_RECEIVED -> (ACK 받은 후) -> ESTABLISHED
 
-- 간단히 표현하면 다음과 같다
 
 <br/>
 
