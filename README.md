@@ -31,15 +31,7 @@
   3. 업로드 3회 지각은 1회 결석으로 간주<br>
   
 <br><br>
-  
-<h3>❗ 금주의 주제 ❗</h3>
-  <h6>< RDBMS vs NoSQL ></h6>
-       영애님, 지현님, 소희님<br><br>
-  <h6>< DevOps ></h6>
-      세원님, 우재님, 범진님<br><br>
-  <h6>< 디자인패턴 ></h6>
-       민기님, 도희님<br>
-<br><br>
+
 
 <h3>✨ Contents (스터디 내용) ✨</h3>
 
@@ -51,7 +43,7 @@
 |[props vs state](https://github.com/cs-study-play/cs-study/blob/main/Web/props_and_state.md)|[HDFS](https://github.com/cs-study-play/cs-study/blob/main/BigData/5.Hdfs.md)
 |[CORS](https://github.com/cs-study-play/cs-study/blob/main/Web/CORS.md)|[데이터 시각화](https://github.com/cs-study-play/cs-study/blob/main/BigData/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94.md)|
 |[Callback](https://github.com/cs-study-play/cs-study/blob/main/Web/Callback.md)|[MapReduce](https://github.com/cs-study-play/cs-study/blob/main/BigData/6.Mapreduce.md)
-|[browser_rendering](https://github.com/cs-study-play/cs-study/blob/main/Web/browser_rendering.md)|
+|[browser_rendering](https://github.com/cs-study-play/cs-study/blob/main/Web/browser_rendering.md)|[분산처리](https://github.com/cs-study-play/cs-study/blob/main/BigData/bigdata-framework.md)|
 |[변수호이스팅](https://github.com/cs-study-play/cs-study/blob/main/Web/%EB%B3%80%EC%88%98%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85.md)|
 |[RESTAPI](https://github.com/cs-study-play/cs-study/blob/main/Web/3.restApi.md)|
 |[Spring Boot by 황세원](https://github.com/cs-study-play/cs-study/blob/main/Web/SpringBoot_sewon.md)|
