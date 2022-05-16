@@ -66,6 +66,7 @@
 |||[7. TLS & SSL](./Network/nw_07_TLS_SSL_HandShake.md)|
 |||[8. 로드 밸런싱(Load Balancing)](./Network/nw_08_LoadBalancing.md)|
 |||[9. 블로킹/논블로킹 & 동기/비동기](./Network/nw_09_Blocking_NonBlocking_Sync_Async.md)|
+|||[IP by 윤소희](https://github.com/cs-study-play/cs-study/blob/main/Network/IP.md)|
     
 
 
