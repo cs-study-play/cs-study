@@ -63,7 +63,7 @@ apache는 **Web Server**
 
 ![img1 daumcdn 3](https://user-images.githubusercontent.com/97663140/168602662-4563b95a-f9f7-4739-bcb0-683f6743e0e1.png)
 
-1. 성능 차이
+2. 성능 차이
 - 정적/동적 컨텐츠를 제공하는 방식이 다르다.
 
 **정적 컨텐츠**
@@ -77,7 +77,7 @@ apache는 **Web Server**
 - Nginx는 SCGI 핸들러와 FastCGI 모듈을 사용해서 동적 컨텐츠 제공할 수 있음
 - 동적 컨텐츠는 두 웹서버 **성능이 비슷**함
 
-1. OS 지원 여부
+3. OS 지원 여부
 
 ### **Nginx**
 
@@ -89,7 +89,7 @@ apache는 **Web Server**
 - Linux 및 BSD를 포함한 모든 Unix 계열 OS 지원
 - Windows 모두 지원
 
-1. 요청을 처리 및 해석하는 방법
+4. 요청을 처리 및 해석하는 방법
 
 ### **Nginx**
 
