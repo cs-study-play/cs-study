@@ -10,6 +10,7 @@
     - 유한 버퍼 문제(Bounded Buffer Problem)
         
         ![Untitled](https://user-images.githubusercontent.com/97429679/171047607-d01862c8-b566-4e6d-a92d-42cc5b4d45d9.png)
+        
         <[https://prepinsta.com/operating-systems/bounded-buffer-problem/](https://prepinsta.com/operating-systems/bounded-buffer-problem/)>
         
         - 생산된 데이터는 버퍼에 일단 저장
@@ -129,9 +130,9 @@
 ### 2. Busy Wait
 
 1. Busy Wait
-- 바쁘게 기다린다.
-- 생산자는 버퍼가 가득차면 빈 공간이 있을 때까지 생산을 기다리고, 소비자는 버퍼가 비면 찬 공간이 있을 때까지 기다려야 하는데 처음 진행했던 코드에서 기다리는 코드는 **`while(count == size);`** 와 **`while(count == 0);`**. 이럴 경우 해당 조건이 아닐 때까지 무한 루프를 돌면서 기다려야 하는 상황이 발생한다. 이때 CPU는 딴 일을 하지 못하고 계속해서 해당 조건문에 잡혀 있게 되는데 이것을 **Busy Wait**라고 한다.
-1. 세마포어를 활용한 CPU 성능 높이기
+    - 바쁘게 기다린다.
+    - 생산자는 버퍼가 가득차면 빈 공간이 있을 때까지 생산을 기다리고, 소비자는 버퍼가 비면 찬 공간이 있을 때까지 기다려야 하는데 처음 진행했던 코드에서 기다리는 코드는 **`while(count == size);`** 와 **`while(count == 0);`**. 이럴 경우 해당 조건이 아닐 때까지 무한 루프를 돌면서 기다려야 하는 상황이 발생한다. 이때 CPU는 딴 일을 하지 못하고 계속해서 해당 조건문에 잡혀 있게 되는데 이것을 **Busy Wait**라고 한다.
+2. 세마포어를 활용한 CPU 성능 높이기
     - 세마포어를 사용한 busy wait 회피 → CPU 효율성 높이기
         
         ![17](https://user-images.githubusercontent.com/97429679/171047604-f8aa7a75-90a8-41e3-a00c-a15c18a3120c.png)
