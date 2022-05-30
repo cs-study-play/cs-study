@@ -9,8 +9,7 @@
     - 예) 컴파일러 → 어셈블러, 파일 서버 → 클라이언트, 웹 서버 → 웹 클라이언트
     - 유한 버퍼 문제(Bounded Buffer Problem)
         
-        ![<[https://prepinsta.com/operating-systems/bounded-buffer-problem/](https://prepinsta.com/operating-systems/bounded-buffer-problem/)>](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3%20%E1%84%83%E1%85%A9%E1%86%BC%E1%84%80%E1%85%B5%E1%84%92%E1%85%AA%20-%20%E1%84%89%E1%85%A6%E1%84%86%E1%85%A1%E1%84%91%E1%85%A9%E1%84%8B%E1%85%A5(2)%20Busy%20Wait%20620c394f349b4da9a8bdeb4cb655b48b/Untitled.png)
-        
+        ![Untitled](https://user-images.githubusercontent.com/97429679/171047607-d01862c8-b566-4e6d-a92d-42cc5b4d45d9.png)
         <[https://prepinsta.com/operating-systems/bounded-buffer-problem/](https://prepinsta.com/operating-systems/bounded-buffer-problem/)>
         
         - 생산된 데이터는 버퍼에 일단 저장
@@ -135,7 +134,7 @@
 1. 세마포어를 활용한 CPU 성능 높이기
     - 세마포어를 사용한 busy wait 회피 → CPU 효율성 높이기
         
-        ![17.PNG](%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%89%E1%85%A6%E1%84%89%E1%85%B3%20%E1%84%83%E1%85%A9%E1%86%BC%E1%84%80%E1%85%B5%E1%84%92%E1%85%AA%20-%20%E1%84%89%E1%85%A6%E1%84%86%E1%85%A1%E1%84%91%E1%85%A9%E1%84%8B%E1%85%A5(2)%20Busy%20Wait%20620c394f349b4da9a8bdeb4cb655b48b/17.png)
+        ![17](https://user-images.githubusercontent.com/97429679/171047604-f8aa7a75-90a8-41e3-a00c-a15c18a3120c.png)
         
         - 생산자는 버퍼가 가득 차 있으면 무한 루프를 도는 것이 아니라 세마포어에 가둬 버리고, 소비자가 버퍼에 데이터를 빼면 세마포어에 가둬진 생산자의 임계구역을 깨워 주면 된다.
         - 소비자는 버퍼가 비워져 있으면 무한 루프를 도는 것이 아니라 세마포어에 가둬 버리고, 생산자가 버퍼에 데이터를 채우면 세마포어에 가둬진 소비자의 임계구역을 깨워 주면 된다.
