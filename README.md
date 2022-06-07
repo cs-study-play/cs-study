@@ -38,13 +38,13 @@
 |Web|BigData|
 |---|---|
 |[접근성](https://github.com/cs-study-play/cs-study/blob/main/Web/%EC%A0%91%EA%B7%BC%EC%84%B1.md)|[빅데이터 정착 배경](https://github.com/cs-study-play/cs-study/blob/main/BigData/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98-%EC%A0%95%EC%B0%A9-%EB%B0%B0%EA%B2%BD.md)|
-|[함수선언문과 함수표현식](https://github.com/cs-study-play/cs-study/blob/main/Web/%ED%95%A8%EC%88%98%EC%84%A0%EC%96%B8%EB%AC%B8%EA%B3%BC%20%ED%95%A8%EC%88%98%ED%91%9C%ED%98%84%EC%8B%9D.md)|[Hadoop](https://github.com/cs-study-play/cs-study/blob/main/BigData/4.Hadoop.md)
+|[함수선언문과 함수표현식](https://github.com/cs-study-play/cs-study/blob/main/Web/%ED%95%A8%EC%88%98%EC%84%A0%EC%96%B8%EB%AC%B8%EA%B3%BC%20%ED%95%A8%EC%88%98%ED%91%9C%ED%98%84%EC%8B%9D.md)|[Hadoop by 홍도희](https://github.com/cs-study-play/cs-study/blob/main/BigData/4.Hadoop.md)
 |[익명함수](./Web/익명함수.md)|[데이터 파이프라인](https://github.com/cs-study-play/cs-study/blob/main/BigData/data-pipeline.md)|
-|[props vs state](https://github.com/cs-study-play/cs-study/blob/main/Web/props_and_state.md)|[HDFS](https://github.com/cs-study-play/cs-study/blob/main/BigData/5.Hdfs.md)
+|[props vs state](https://github.com/cs-study-play/cs-study/blob/main/Web/props_and_state.md)|[HDFS by 홍도희](https://github.com/cs-study-play/cs-study/blob/main/BigData/5.Hdfs.md)
 |[CORS](https://github.com/cs-study-play/cs-study/blob/main/Web/CORS.md)|[데이터 시각화](https://github.com/cs-study-play/cs-study/blob/main/BigData/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94.md)|
-|[Callback](https://github.com/cs-study-play/cs-study/blob/main/Web/Callback.md)|[MapReduce](https://github.com/cs-study-play/cs-study/blob/main/BigData/6.Mapreduce.md)
-|[browser_rendering](https://github.com/cs-study-play/cs-study/blob/main/Web/browser_rendering.md)|[분산처리](https://github.com/cs-study-play/cs-study/blob/main/BigData/bigdata-framework.md)|
-|[변수호이스팅](https://github.com/cs-study-play/cs-study/blob/main/Web/%EB%B3%80%EC%88%98%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85.md)|[Yarn](https://github.com/cs-study-play/cs-study/blob/main/BigData/7.Yarn.md)
+|[Callback](https://github.com/cs-study-play/cs-study/blob/main/Web/Callback.md)|[MapReduce by 홍도희](https://github.com/cs-study-play/cs-study/blob/main/BigData/6.Mapreduce.md)
+|[BrowserRendering by 홍도희](https://github.com/cs-study-play/cs-study/blob/main/Web/browser_rendering.md)|[분산처리](https://github.com/cs-study-play/cs-study/blob/main/BigData/bigdata-framework.md)|
+|[변수호이스팅](https://github.com/cs-study-play/cs-study/blob/main/Web/%EB%B3%80%EC%88%98%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85.md)|[Yarn by 홍도희](https://github.com/cs-study-play/cs-study/blob/main/BigData/7.Yarn.md)
 |[RESTAPI](https://github.com/cs-study-play/cs-study/blob/main/Web/3.restApi.md)|
 |[Spring Boot by 황세원](https://github.com/cs-study-play/cs-study/blob/main/Web/SpringBoot_sewon.md)|
 
