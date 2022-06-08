@@ -58,7 +58,7 @@
 |Server|CS 공부 관련 정보 정리|Network|
 |---|---|---|
 |[CloudServer by 황세원](https://github.com/cs-study-play/cs-study/tree/main/Server)|[CS Inforamtion by 장우재](./Information/cs_information.md)|[1. OSI 7 계층 by 장우재](./Network/nw_01_OSI_7_layers.md)|
-|[LoadBalancing by 황세원](https://github.com/cs-study-play/cs-study/blob/main/Server/LoadBalancing_sewon.md)||[2. TCP by 장우재](./Network/nw_02_TCP.md)|
+|[LoadBalancing by 황세원](https://github.com/cs-study-play/cs-study/blob/main/Server/LoadBalancing_sewon.md)|[JobInterview by 장우재](./Information/job_interview.md)|[2. TCP by 장우재](./Network/nw_02_TCP.md)|
 |||[3. TCP/IP by 장우재](./Network/nw_03_TCP_IP.md)|
 |||[4. UDP](./Network/nw_04_UDP.md)|
 |||[5. 대칭키 & 공개키](./Network/nw_05_%EB%8C%80%EC%B9%AD%ED%82%A4_%EA%B3%B5%EA%B0%9C%ED%82%A4.md)|
