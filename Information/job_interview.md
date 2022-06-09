@@ -22,7 +22,7 @@
 - 영어로 Stack '쌓다' 라는 의미.
 - 프로그래밍에서 목록 혹은 리스트에서 접근이 한쪽에서만 가능한 구조.
 - LIFO(Last-In, First-Out)가 기본원리.
-    ![01_Stack](./README_images/01_Stack.jpg)
+    ![01_Stack](./Images/JOB_Interview_01_Stack.jpg)
 - 대표적인 내장함수
 	- push
 	- peek
@@ -34,7 +34,7 @@
 - 영어로 Queue '일이 처리되기를 기다리는 리스트' 라는 의미.
 - 프로그래밍에서 목록 혹은 리스트에서 접근이 양쪽에서 가능한 구조.
 - FIFO(First-In, First-Out)가 기본원리.
-    ![02_Queue](./README_images/02_Queue.jpg)
+    ![02_Queue](./Images/JOB_Interview_02_Queue.jpg)
 - 대표적인 내장함수
 	- put
 	- peek
@@ -162,7 +162,7 @@
 
 ## 6. MVC 패턴
 
-![03_MVC_pattern](./README_images/03_MVC_pattern.png)
+![03_MVC_pattern](./Images/JOB_Interview_03_MVC_pattern.png)
 
 - 모델-뷰-컨트롤러(model–view–controller, MVC)는 소프트웨어 공학에서 사용되는 소프트웨어 디자인 패턴.
 - 사용자 인터페이스로부터 비즈니스 로직을 분리하여 애플리케이션의 시각적 요소나 그 이면에서 실행되는 비즈니스 로직을 서로 영향 없이 쉽게 고칠 수 있는 애플리케이션을 만들 수 있음.
@@ -206,7 +206,7 @@
 
 #### Web Application의 MVC 구동 원리
 
-![04_MVC_Web](./README_images/04_MVC_Web.png)
+![04_MVC_Web](./Images/JOB_Interview_04_MVC_Web.png)
 
 1. 웹 브라우저가 웹 서버에 웹 애플리케이션 실행을 요청. (MVC 구조가 WAS라고 보면 됨.)
 2. 웹 서버는 들어온 요청을 처리할 수 있는 Servlet을 찾아서 요청을 전달. (Matching)
@@ -239,7 +239,7 @@
 
 #### Spring MVC Architecture
 
-![06_Spring-MVC_Architecture](./README_images/06_Spring-MVC_Architecture.png)
+![06_Spring-MVC_Architecture](./Images/JOB_Interview_06_Spring-MVC_Architecture.png)
 
 - DispatcherServlet
     - 스프링 프레임워크가 제공하는 Servlet 클래스.
@@ -260,7 +260,7 @@
 
 #### Spring MVC 패턴 처리 과정
 
-![05_Spring-MVC_pattern](./README_images/05_Spring-MVC_pattern.png)
+![05_Spring-MVC_pattern](./Images/JOB_Interview_05_Spring-MVC_pattern.png)
 
 1. Client가 서버에 요청을 하면, 스프링 DispatcherServlet이 요청을 가로챔.
 2. 요청을 가로챈 DispatcherServlet은 HandlerMapping 에게 어떤 Controller에게 요청을 위임하면 좋을지 물어봄. (servlet-context.xml에서 @Controller로 등록된 것들을 스캔하여 찾아줌.)
@@ -278,7 +278,7 @@
 <br/>
 
 #### Spring Restful 구조
-![07_Spring_Restful](./README_images/07_Spring_Restful.png)
+![07_Spring_Restful](./Images/JOB_Interview_07_Spring_Restful.png)
 
 <br/>
 
@@ -619,7 +619,7 @@
 <br/>
 
 #### INNER JOIN (내부 조인)
-![08_SQL_INNER_JOIN](./README_images/08_SQL_INNER_JOIN.png)
+![08_SQL_INNER_JOIN](./Images/JOB_Interview_08_SQL_INNER_JOIN.png)
 
 ```SQL
 SELECT <열 목록>
@@ -633,7 +633,7 @@ FROM <첫 번째 테이블>
 
 #### OUTER JOIN (외부 조인)
 
-![09_SQL_OUTER_JOIN](./README_images/09_SQL_OUTER_JOIN.png)
+![09_SQL_OUTER_JOIN](./Images/JOB_Interview_09_SQL_OUTER_JOIN.png)
 
 ```SQL
 SELECT <열 목록>
@@ -650,13 +650,13 @@ FROM <첫 번째 테이블(LEFT 테이블)>
 - FULL OUTER JOIN
     - 왼쪽 또는 오른쪽 테이블의 모든 값이 출력되는 조인
 
-![10_SQL_OUTER_JOIN_detail](./README_images/10_SQL_OUTER_JOIN_detail.png)
+![10_SQL_OUTER_JOIN_detail](./Images/JOB_Interview_10_SQL_OUTER_JOIN_detail.png)
 
 <br/>
 
 #### CROSS JOIN (상호 조인)
 
-![11_SQL_CROSS_JOIN](./README_images/11_SQL_CROSS_JOIN.png)
+![11_SQL_CROSS_JOIN](./Images/JOB_Interview_11_SQL_CROSS_JOIN.png)
 
 ```SQL
 SELECT * 
@@ -668,7 +668,7 @@ FROM <첫 번째 테이블>
 
 ### SELF JOIN (자체 조인)
 
-![12_SQL_SELF_JOIN](./README_images/12_SQL_SELF_JOIN.png)
+![12_SQL_SELF_JOIN](./Images/JOB_Interview_12_SQL_SELF_JOIN.png)
 
 ```SQL
 SELECT <열 목록>
