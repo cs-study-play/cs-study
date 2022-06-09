@@ -239,7 +239,7 @@
 
 #### Spring MVC Architecture
 
-![06_Spring-MVC_Architecture](../Images/JOB_Interview_06_Spring-MVC_Architecture.png)
+![06_Spring-MVC_Architecture](../Images/JOB_Interview_06_Spring_MVC_Architecture.png)
 
 - DispatcherServlet
     - 스프링 프레임워크가 제공하는 Servlet 클래스.
@@ -260,7 +260,7 @@
 
 #### Spring MVC 패턴 처리 과정
 
-![05_Spring-MVC_pattern](../Images/JOB_Interview_05_Spring-MVC_pattern.png)
+![05_Spring-MVC_pattern](../Images/JOB_Interview_05_Spring_MVC_pattern.png)
 
 1. Client가 서버에 요청을 하면, 스프링 DispatcherServlet이 요청을 가로챔.
 2. 요청을 가로챈 DispatcherServlet은 HandlerMapping 에게 어떤 Controller에게 요청을 위임하면 좋을지 물어봄. (servlet-context.xml에서 @Controller로 등록된 것들을 스캔하여 찾아줌.)
